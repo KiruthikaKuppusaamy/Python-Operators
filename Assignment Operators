@@ -1,0 +1,45 @@
+# Initial assignment
+x = 10
+print("Initial value:", x)
+
+# Add and assign
+x += 5
+print("After += 5:", x)
+
+# Subtract and assign
+x -= 3
+print("After -= 3:", x)
+
+# Multiply and assign
+x *= 2
+print("After *= 2:", x)
+
+# Divide and assign
+x /= 4
+print("After /= 4:", x)
+
+# Modulus and assign
+x %= 3
+print("After %= 3:", x)
+
+# Reassign to show exponentiation clearly
+x = 2
+x **= 3
+print("After **= 3:", x)
+
+# Floor division and assign
+x //= 2
+print("After //= 2:", x)
+
+
+
+Output
+
+Initial value: 10
+After += 5: 15
+After -= 3: 12
+After *= 2: 24
+After /= 4: 6.0
+After %= 3: 0.0
+After **= 3: 8
+After //= 2: 4
