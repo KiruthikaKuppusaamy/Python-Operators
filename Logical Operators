@@ -1,0 +1,21 @@
+a = 10
+b = 5
+
+# Logical AND
+if a > 5 and b < 10:
+    print("AND: Both conditions are True")
+
+# Logical OR
+if a < 5 or b < 10:
+    print("OR: At least one condition is True")
+
+# Logical NOT
+if not (a < 5):
+    print("NOT: The condition is False, so NOT makes it True")
+
+
+Output
+
+AND: Both conditions are True
+OR: At least one condition is True
+NOT: The condition is False, so NOT makes it True
