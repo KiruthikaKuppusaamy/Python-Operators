@@ -1,0 +1,22 @@
+text = "welcome"
+vowels = ['a', 'e', 'i', 'o', 'u']
+
+# Check if 'e' is in text
+if 'e' in text:
+    print("'e' is present in the word.")
+
+# Check if 'z' is not in text
+if 'z' not in text:
+    print("'z' is not present in the word.")
+
+# Using list
+letter = 'a'
+if letter in vowels:
+    print(f"{letter} is a vowel.")
+
+
+Output
+
+'e' is present in the word.
+'z' is not present in the word.
+a is a vowel.
